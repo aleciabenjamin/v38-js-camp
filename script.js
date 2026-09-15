@@ -46,3 +46,15 @@ if (tempC >= 20) {
 } else {
   console.log("kallt");
 }
+
+const routes = ["Linje 2", "Linje 5", "Linje 8"];
+
+for (route of routes) {
+  console.log("Avgår: " + route);
+}
+
+function triple(n) {
+  return n * 3;
+}
+console.log(triple(8));
+//const triple = (n) => n * 3; // samma jobb, annan stavning
